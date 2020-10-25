@@ -83,7 +83,7 @@ async def variants(ctx, arg):
             print(f'https://{domain}/products/{components[-1]}.json')
             productjson_raw = r.get(f'https://{domain}/products/{components[-1]}.json',
                                            timeout=10)
-            print(productjson_raw.text)
+            #productjson_raw.text)
             if productjson_raw.status_code == 404:
                 await ctx.send(embed=generate_error(
                     "It seems like the product does not exist in this Shopify store\'s API. This probably means the product does not exist!"))
