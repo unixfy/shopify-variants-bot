@@ -2,7 +2,6 @@ from discord.ext import commands
 from urllib.parse import urlparse
 import validators
 import discord
-import requests
 import json
 from datetime import datetime
 import cloudscraper
