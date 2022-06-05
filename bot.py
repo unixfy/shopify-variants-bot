@@ -7,7 +7,7 @@ from datetime import datetime
 import cloudscraper
 
 
-TOKEN = "***REMOVED***"
+TOKEN = "REMOVED"
 bot = commands.Bot(command_prefix='$')
 
 
